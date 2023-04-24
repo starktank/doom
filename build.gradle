@@ -26,16 +26,16 @@ dependencies {
     implementation(
             'jaxen:jaxen:1.1.6',
             'javax.xml.stream:stax-api:1.0-2',
-            'net.java.dev.msv:xsdlib:2013.6.1',
-            'javax.xml.bind:jaxb-api:2.2.12',
-            'pull-parser:pull-parser:2.1.10',
+            'net.java.dev.msv:xsdlib:2013.6.4',
+            'javax.xml.bind:jaxb-api:2.2.22',
+            'pull-parser:pull-parser:2.1.16',
             'xpp3:xpp3:1.1.4c',
     )
 
     testImplementation(
-            'org.testng:testng:6.8.21',
+            'org.testng:testng:6.8.25',
 
-            'xerces:xercesImpl:2.11.0',
+            'xerces:xercesImpl:2.11.12',
             'xalan:xalan:2.7.2',
     )
 }
@@ -72,7 +72,7 @@ publishing {
 
             pom {
                 name = 'dom4j'
-                description = 'flexible XML framework for Java'
+                description = 'flexible XML framework for Java and Javacode'
                 url = 'http://dom4j.github.io/'
                 licenses {
                     license {
